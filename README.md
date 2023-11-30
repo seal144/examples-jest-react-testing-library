@@ -12,9 +12,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/jestTest/02mockReturnValue"
 
+### Async testing Api
+
+"./src/jestTest/03asyncTesting"
+
 ### Mocking resolved value of fetch function
 
-"./src/jestTest/03mockResolvedValue"
+"./src/jestTest/04mockResolvedValue"
 
 ## Available Scripts
 
