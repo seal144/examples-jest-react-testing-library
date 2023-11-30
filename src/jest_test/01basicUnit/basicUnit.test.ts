@@ -1,4 +1,4 @@
-import starRating from './starRating';
+import starRating from '../starRating';
 
 describe('starRating', () => {
   test('starRating of 3.74 should be "full full full half empty"', () => {

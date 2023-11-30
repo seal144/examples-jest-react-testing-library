@@ -1,7 +1,7 @@
-import { getAverageBtcPlnPrice } from './getAverageBtcPlnPrice';
-import * as fetchBtcPlnRateModule from './fetchBtcPlnRate';
+import { getAverageBtcPlnPrice } from '../getAverageBtcPlnPrice';
+import * as fetchBtcPlnRateModule from '../fetchBtcPlnRate';
 
-jest.mock('./fetchBtcPlnRate');
+jest.mock('../fetchBtcPlnRate');
 
 describe('getAverageBtcPlnPrice', () => {
   test('returns average price when data is available', async () => {

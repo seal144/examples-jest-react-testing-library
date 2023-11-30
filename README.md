@@ -6,13 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Basic unit test
 
-"./src/jest_test/basicUnit"
+"./src/jest_test/01basicUnit"
 
-### Mocking Functions
+### Mocking function return value
 
-"./src/jest_test/mockingFunctions"
+"./src/jest_test/02mockReturnValue"
 
-Learn about Jest's mocking capabilities. Mocking is useful when you want to isolate the code being tested by replacing certain functions or modules with mock implementations.
+### Mocking resolved value of fetch function
+
+"./src/jest_test/03mockResolvedValue"
 
 ## Available Scripts
 
