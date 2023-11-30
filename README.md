@@ -6,15 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Basic unit test
 
-"./src/jest_test/01basicUnit"
+"./src/jestTest/01basicUnit"
 
 ### Mocking function return value
 
-"./src/jest_test/02mockReturnValue"
+"./src/jestTest/02mockReturnValue"
 
 ### Mocking resolved value of fetch function
 
-"./src/jest_test/03mockResolvedValue"
+"./src/jestTest/03mockResolvedValue"
 
 ## Available Scripts
 
