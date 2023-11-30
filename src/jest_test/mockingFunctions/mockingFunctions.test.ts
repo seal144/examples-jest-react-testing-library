@@ -1,13 +1,12 @@
 import { getAverageBtcPlnPrice } from './getAverageBtcPlnPrice';
-import * as fetchBtcPlnExchangeModule from './fetchBtcPlnExchange';
+import * as fetchBtcPlnRateModule from './fetchBtcPlnRate';
 
-//mockowanie danych które są zwracane a api
-jest.mock('./fetchBtcPlnExchange');
+jest.mock('./fetchBtcPlnRate');
 
 describe('getAverageBtcPlnPrice', () => {
   test('returns average price when data is available', async () => {
-    const mockFetchBtcPlnExchange = jest.spyOn(fetchBtcPlnExchangeModule, 'fetchBtcPlnExchange');
-    mockFetchBtcPlnExchange.mockResolvedValue({
+    const mockFetchBtcPlnRate = jest.spyOn(fetchBtcPlnRateModule, 'fetchBtcPlnRate');
+    mockFetchBtcPlnRate.mockResolvedValue({
       status: 'Ok',
       stats: {
         h: '150000.30',
@@ -24,8 +23,8 @@ describe('getAverageBtcPlnPrice', () => {
   });
 
   test('returns null when data is not available', async () => {
-    const mockFetchBtcPlnExchange = jest.spyOn(fetchBtcPlnExchangeModule, 'fetchBtcPlnExchange');
-    mockFetchBtcPlnExchange.mockResolvedValue({
+    const mockFetchBtcPlnRate = jest.spyOn(fetchBtcPlnRateModule, 'fetchBtcPlnRate');
+    mockFetchBtcPlnRate.mockResolvedValue({
       status: 'Fail',
       errors: ['Some error message'],
     });

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { getAverageBtcPlnPrice } from './jest_test/mocking_functions/getAverageBtcPlnPrice';
+import { getAverageBtcPlnPrice } from './jest_test/mockingFunctions/getAverageBtcPlnPrice';
 
 function App() {
   const [btcPln, setBtcPln] = useState<number | null>(null);

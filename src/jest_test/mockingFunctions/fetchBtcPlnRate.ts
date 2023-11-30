@@ -10,8 +10,8 @@ export interface zondaRes {
   errors?: string[];
 }
 
-//pobieranie kursu btc-pln z giełdy krypto;
-export const fetchBtcPlnExchange = async (): Promise<zondaRes | undefined> => {
+//fetching the btc-pln rate from the cryptocurrency exchange;
+export const fetchBtcPlnRate = async (): Promise<zondaRes | undefined> => {
   try {
     const response = await fetch('https://api.zondacrypto.exchange/rest/trading/stats/btc-pln');
     const data: zondaRes = await response.json();

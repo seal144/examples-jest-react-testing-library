@@ -1,8 +1,8 @@
-import { fetchBtcPlnExchange } from './fetchBtcPlnExchange';
+import { fetchBtcPlnRate } from './fetchBtcPlnRate';
 
-// wyciąganie średniej z najwyższego i najniższego kursu zwracanego z giełdy krypto
+// geting the average of the highest and lowest price returned from a crypto exchange
 export const getAverageBtcPlnPrice = async (): Promise<number | null> => {
-  const data = await fetchBtcPlnExchange();
+  const data = await fetchBtcPlnRate();
   if (data?.stats) {
     const lowestRate24h = Number(data.stats.l);
     const highestRate24h = Number(data.stats.h);
