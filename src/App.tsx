@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { getAverageBtcPlnPrice } from './jestTest/getAverageBtcPlnPrice';
+import { getAverageBtcPlnPrice } from './testsExamples/getAverageBtcPlnPrice';
 
 function App() {
   const [btcPln, setBtcPln] = useState<number | null>(null);
