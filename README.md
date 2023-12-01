@@ -20,6 +20,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/jestTest/04mockResolvedValue"
 
+### Snapshot testing
+
+"./src/jestTest/05mockResolvedValue"
+
 ## Available Scripts
 
 In the project directory, you can run:

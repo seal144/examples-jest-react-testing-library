@@ -1,5 +1,6 @@
 import starRating from '../starRating';
 
+//this basic unit test is checking if function returns proper values in different edge cases
 describe('starRating', () => {
   test('starRating of 3.74 should be "full full full half empty"', () => {
     expect(starRating(3.74)).toBe('full full full half empty');

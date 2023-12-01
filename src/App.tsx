@@ -5,7 +5,6 @@ import { getAverageBtcPlnPrice } from './jestTest/getAverageBtcPlnPrice';
 function App() {
   const [btcPln, setBtcPln] = useState<number | null>(null);
 
-  // example of fetching data after component reloads (not related to testing)
   useEffect(() => {
     const getBtcPln = async () => {
       const averageBtcPlnPrice = await getAverageBtcPlnPrice();
