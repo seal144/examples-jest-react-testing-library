@@ -8,17 +8,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/testsExamples/01basicUnit"
 
-### Mocking function return value
-
-"./src/testsExamples/02mockReturnValue"
-
 ### Async testing Api
 
-"./src/testsExamples/03asyncTesting"
+"./src/testsExamples/02asyncTesting"
 
-### Mocking resolved value of fetch function
+### Mocking return value for sync func and resolved value for async function
 
-"./src/testsExamples/04mockResolvedValue"
+"./src/testsExamples/03MockReturnResolveValue"
 
 ### Snapshot testing
 

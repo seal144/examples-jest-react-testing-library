@@ -1,6 +1,6 @@
 import { fetchBtcPlnRate } from '../fetchBtcPlnRate';
 
-describe('fetchBtcPlnRate ', () => {
+describe('fetchBtcPlnRate', () => {
   test('fetch resolves with data', async () => {
     const result = await fetchBtcPlnRate();
     expect(result).toBeDefined();
