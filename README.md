@@ -2,23 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Covered jest/react-testing-library features
+## Examples of jest/react-testing-library features and use cases
 
 ### Basic unit test
 
-"./src/testsExamples/01basicUnit"
+"./src/testsExamples/01basicUnit/basicUnit.test.ts"
 
 ### Async testing Api
 
-"./src/testsExamples/02asyncTesting"
+"./src/testsExamples/02asyncTestingApi/asyncTestingApi.test.ts"
 
 ### Mocking return value for sync func and resolved value for async function
 
-"./src/testsExamples/03MockReturnResolveValue"
+"./src/testsExamples/03MockReturnAndResolveValue/mockReturnValue.test.ts"
+"./src/testsExamples/03MockReturnAndResolveValue/mockResolvedValue.test.ts"
 
 ### Snapshot testing
 
-"./src/testsExamples/05mockResolvedValue"
+"./src/testsExamples/04snapShotTesting/Button.test.ts"
+
+### Setup/cleanup before/after each/all test
+
+"./src/testsExamples/05before(Each,All)Afler(Each,All)/SetupAndCleanup.test.ts"
 
 ## Available Scripts
 
