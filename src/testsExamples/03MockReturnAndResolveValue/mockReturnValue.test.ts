@@ -3,6 +3,7 @@ import { doubleComplexMathOperation } from '../doubleComplexMathOperation';
 
 jest.mock('../complexMathOperation');
 
+//testing doubleComplexMathOperation without invoking complexMathOperation
 describe('doubleComplexMathOperation omitting complexMathOperation', () => {
   test('should correctly calculate the result', () => {
     (complexMathOperation as jest.Mock).mockReturnValue(10);

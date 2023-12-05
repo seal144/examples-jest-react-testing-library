@@ -3,6 +3,7 @@ import { fetchBtcPlnRate } from '../fetchBtcPlnRate';
 
 jest.mock('../fetchBtcPlnRate');
 
+//testing getAverageBtcPlnPrice without invoking fetchBtcPlnRate
 describe('getAverageBtcPlnPrice', () => {
   test('returns average price when data is available', async () => {
     (fetchBtcPlnRate as jest.Mock).mockResolvedValue({

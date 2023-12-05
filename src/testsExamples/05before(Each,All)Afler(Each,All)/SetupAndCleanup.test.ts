@@ -2,6 +2,7 @@ import Counter from '../Counter';
 
 let counter: Counter | null; // This variable will be shared across all test cases
 
+//Doing some operations before/after each/all tests
 beforeAll(() => {
   //Setting up counter before all tests
   counter = new Counter();

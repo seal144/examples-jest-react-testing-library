@@ -25,6 +25,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/testsExamples/05before(Each,All)Afler(Each,All)/SetupAndCleanup.test.ts"
 
+### Custom Matchers
+
+"./src/testsExamples/06customMatchers"
+
 ## Available Scripts
 
 In the project directory, you can run:
