@@ -10,12 +10,3 @@ export const getAverageBtcPlnPrice = async (): Promise<number | null> => {
   }
   return null;
 };
-
-// example "Ok" data
-// stats:
-//   h: "153451.72"
-//   l: "148050"
-//   m: "BTC-PLN"
-//   r24h: "148921.12"
-//   v: "35.14772654"
-// status: "Ok"

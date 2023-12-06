@@ -29,6 +29,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/testsExamples/06customMatchers"
 
+### Asymmetric Matchers
+
+"./src/testsExamples/07asymmetricMatchers"
+
 ## Available Scripts
 
 In the project directory, you can run:

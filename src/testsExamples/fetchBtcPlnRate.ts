@@ -26,3 +26,12 @@ export const fetchBtcPlnRate = async (): Promise<zondaRes | undefined> => {
     console.log(error);
   }
 };
+
+// example "Ok" data
+// stats:
+//   h: "153451.72"
+//   l: "148050"
+//   m: "BTC-PLN"
+//   r24h: "148921.12"
+//   v: "35.14772654"
+// status: "Ok"
