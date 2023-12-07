@@ -25,13 +25,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/testsExamples/05before(Each,All)Afler(Each,All)/SetupAndCleanup.test.ts"
 
-### Custom Matchers
+### Custom matchers
 
 "./src/testsExamples/06customMatchers"
 
-### Asymmetric Matchers
+### Asymmetric matchers
 
 "./src/testsExamples/07asymmetricMatchers"
+
+### Timer mocks - testing functions that involve timeouts or intervals
+
+"./src/testsExamples/08timerMocks"
 
 ## Available Scripts
 

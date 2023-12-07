@@ -19,6 +19,7 @@ describe('getAverageBtcPlnPrice', () => {
 
     const result = await getAverageBtcPlnPrice();
 
+    expect(fetchBtcPlnRate).toHaveBeenCalled();
     expect(result).toBe(147000.6); // (150000.30 + 144000.90) / 2
   });
 
