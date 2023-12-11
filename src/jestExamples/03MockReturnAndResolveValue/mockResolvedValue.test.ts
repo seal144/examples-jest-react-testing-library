@@ -1,7 +1,7 @@
-import { getAverageBtcPlnPrice } from '../getAverageBtcPlnPrice';
-import { fetchBtcPlnRate } from '../fetchBtcPlnRate';
+import { getAverageBtcPlnPrice } from '../../api/getAverageBtcPlnPrice';
+import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
 
-jest.mock('../fetchBtcPlnRate');
+jest.mock('../../api/fetchBtcPlnRate');
 
 //testing getAverageBtcPlnPrice without invoking fetchBtcPlnRate
 describe('getAverageBtcPlnPrice', () => {

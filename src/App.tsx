@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { getAverageBtcPlnPrice } from './testsExamples/getAverageBtcPlnPrice';
+import { getAverageBtcPlnPrice } from './api/getAverageBtcPlnPrice';
 import Title from './components/Title';
 
 function App() {

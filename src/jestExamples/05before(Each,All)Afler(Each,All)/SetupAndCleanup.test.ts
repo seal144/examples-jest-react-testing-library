@@ -1,4 +1,4 @@
-import Counter from '../Counter';
+import Counter from '../../utils/Counter';
 
 let counter: Counter | null; // This variable will be shared across all test cases
 

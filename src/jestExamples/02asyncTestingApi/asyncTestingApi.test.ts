@@ -1,4 +1,4 @@
-import { fetchBtcPlnRate } from '../fetchBtcPlnRate';
+import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
 
 //example of testing acync function
 describe('fetchBtcPlnRate', () => {

@@ -1,4 +1,4 @@
-import starRating from '../starRating';
+import starRating from '../../utils/starRating';
 
 //this basic unit test is checking if function returns proper values in different edge cases
 describe('starRating', () => {

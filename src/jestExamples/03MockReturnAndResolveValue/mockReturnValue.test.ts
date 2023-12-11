@@ -1,7 +1,7 @@
-import { complexMathOperation } from '../complexMathOperation';
-import { doubleComplexMathOperation } from '../doubleComplexMathOperation';
+import { complexMathOperation } from '../../utils/complexMathOperation';
+import { doubleComplexMathOperation } from '../../utils/doubleComplexMathOperation';
 
-jest.mock('../complexMathOperation');
+jest.mock('../../utils/complexMathOperation');
 
 //testing doubleComplexMathOperation without invoking complexMathOperation
 describe('doubleComplexMathOperation omitting complexMathOperation', () => {

@@ -1,5 +1,5 @@
-import random from '../random';
-import { fetchBtcPlnRate } from '../fetchBtcPlnRate';
+import random from '../../utils/random';
+import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
 
 // asymmetricMatchers can not be used with toBe
 describe('asymmetricMatchers', () => {

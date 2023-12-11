@@ -1,4 +1,4 @@
-import random from '../random';
+import random from '../../utils/random';
 import './customMatcher-toBeWithinRange';
 
 // Custom Matchers allow you to create your own assertions that are specific to your need, it enhances the readability of the expectations

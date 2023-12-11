@@ -1,4 +1,4 @@
-import { timerForGame } from '../timerForGame';
+import { timerForGame } from '../../utils/timerForGame';
 
 //needed to manage timers
 jest.useFakeTimers();

@@ -6,36 +6,36 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Basic unit test
 
-"./src/testsExamples/01basicUnit/basicUnit.test.ts"
+"./src/jestExamples/01basicUnit"
 
 ### Async testing Api
 
-"./src/testsExamples/02asyncTestingApi/asyncTestingApi.test.ts"
+"./src/jestExamples/02asyncTestingApi"
 
 ### Mocking return value for sync func and resolved value for async function
 
-"./src/testsExamples/03MockReturnAndResolveValue/mockReturnValue.test.ts"
-"./src/testsExamples/03MockReturnAndResolveValue/mockResolvedValue.test.ts"
+"./src/jestExamples/03MockReturnAndResolveValue"
+"./src/jestExamples/03MockReturnAndResolveValue"
 
 ### Snapshot testing
 
-"./src/testsExamples/04snapShotTesting/Button.test.ts"
+"./src/jestExamples/04snapShotTesting"
 
 ### Setup/cleanup before/after each/all test
 
-"./src/testsExamples/05before(Each,All)Afler(Each,All)/SetupAndCleanup.test.ts"
+"./src/jestExamples/05before(Each,All)Afler(Each,All)"
 
 ### Custom matchers
 
-"./src/testsExamples/06customMatchers"
+"./src/jestExamples/06customMatchers"
 
 ### Asymmetric matchers
 
-"./src/testsExamples/07asymmetricMatchers"
+"./src/jestExamples/07asymmetricMatchers"
 
 ### Timer mocks - testing functions that involve timeouts or intervals
 
-"./src/testsExamples/08timerMocks"
+"./src/jestExamples/08timerMocks"
 
 ## Examples of "react-testing-library" features and use cases
 
