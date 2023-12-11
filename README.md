@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Examples of jest/react-testing-library features and use cases
+## Examples of "jest" features and use cases
 
 ### Basic unit test
 
@@ -36,6 +36,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Timer mocks - testing functions that involve timeouts or intervals
 
 "./src/testsExamples/08timerMocks"
+
+## Examples of "react-testing-library" features and use cases
+
+### Basic render test
+
+"./src/testingLibraryExamples/01RenderBasics"
 
 ## Available Scripts
 

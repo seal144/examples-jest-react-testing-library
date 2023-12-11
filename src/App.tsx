@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { getAverageBtcPlnPrice } from './testsExamples/getAverageBtcPlnPrice';
+import Title from './components/Title';
 
 function App() {
   const [btcPln, setBtcPln] = useState<number | null>(null);
@@ -16,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h3>EXAMPLE: Jest and Testing Library</h3>
+        <Title text="EXAMPLE: Jest and Testing Library" />
         {btcPln && <p>BTC-PLN: {btcPln}PLN</p>}
       </header>
     </div>
