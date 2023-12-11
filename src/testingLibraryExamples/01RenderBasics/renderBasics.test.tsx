@@ -14,6 +14,9 @@ describe('Title', () => {
 
     // queryByText - returns null if not found
     expect(screen.queryByText(/wrong text/i)).toBeNull();
+
+    //selecting element by TestId. Element have to have attribute data-testid="title-text"
+    expect(screen.getByTestId('title-text')).toBeInTheDocument();
   });
   test('renders example title (test async)', async () => {
     render(<Title text="Some Long Title" />);
