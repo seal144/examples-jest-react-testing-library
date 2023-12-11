@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot after incrementing count 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      Count: 0
+    </p>
+    <button>
+      Increment
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot after incrementing count 2`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      Count: 1
+    </p>
+    <button>
+      Increment
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -47,6 +47,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "./src/testingLibraryExamples/02FireEvents"
 
+### Snapshot testing
+
+'./src/testingLibraryExamples/03snapshotTesting'
+
 ## Available Scripts
 
 In the project directory, you can run:
