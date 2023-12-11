@@ -51,6 +51,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 './src/testingLibraryExamples/03snapshotTesting'
 
+### Form testing
+
+'./src/testingLibraryExamples/04FormTesting'
+
 ## Available Scripts
 
 In the project directory, you can run:
