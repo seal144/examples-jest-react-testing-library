@@ -1,5 +1,5 @@
 {
-  "name": "example-jest-react-testing-library-tests",
+  "name": "examples-jest-react-testing-library",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Jest and testing-library usage examples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a cheat sheet for jest and testing-library. It covers examples of the most common features and use cases. Feel free to use it.
 
-## Examples of "jest" features and use cases
+## Examples of "jest"
 
 ### [Basic unit test](/src/jestExamples/01basicUnit/basicUnit.test.ts)
 
@@ -37,7 +37,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - "./src/jestExamples/08timerMocks"
 
-## Examples of "react-testing-library" features and use cases
+## Examples of "react-testing-library"
 
 ### [Basic render test](/src/testingLibraryExamples/01RenderBasics/renderBasics.test.tsx)
 
@@ -64,6 +64,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
