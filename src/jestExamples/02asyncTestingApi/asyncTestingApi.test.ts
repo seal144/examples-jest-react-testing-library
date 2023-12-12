@@ -1,9 +1,9 @@
-import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
+import { fetchBtcRate } from '../../api/fetchBtcRate';
 
 //example of testing acync function
-describe('fetchBtcPlnRate', () => {
+describe('fetchBtcRate', () => {
   test('fetch resolves with data', async () => {
-    const result = await fetchBtcPlnRate();
+    const result = await fetchBtcRate('pln');
     expect(result).toBeDefined();
     expect(result).toHaveProperty('status');
   });

@@ -1,12 +1,12 @@
-import { getAverageBtcPlnPrice } from '../../api/getAverageBtcPlnPrice';
-import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
+import { getAverageBtcPrice } from '../../api/getAverageBtcPrice';
+import { fetchBtcRate } from '../../api/fetchBtcRate';
 
-jest.mock('../../api/fetchBtcPlnRate');
+jest.mock('../../api/fetchBtcRate');
 
-//testing getAverageBtcPlnPrice without invoking fetchBtcPlnRate
-describe('getAverageBtcPlnPrice', () => {
+//testing getAverageBtcPrice without invoking fetchBtcRate
+describe('getAverageBtcPrice', () => {
   test('returns average price when data is available', async () => {
-    (fetchBtcPlnRate as jest.Mock).mockResolvedValue({
+    (fetchBtcRate as jest.Mock).mockResolvedValue({
       status: 'Ok',
       stats: {
         h: '150000.30',
@@ -17,28 +17,28 @@ describe('getAverageBtcPlnPrice', () => {
       },
     });
 
-    const result = await getAverageBtcPlnPrice();
+    const result = await getAverageBtcPrice('pln');
 
-    expect(fetchBtcPlnRate).toHaveBeenCalled();
+    expect(fetchBtcRate).toHaveBeenCalled();
     expect(result).toBe(147000.6); // (150000.30 + 144000.90) / 2
   });
 
   test('returns null when data is not available', async () => {
-    (fetchBtcPlnRate as jest.Mock).mockResolvedValue({
+    (fetchBtcRate as jest.Mock).mockResolvedValue({
       status: 'Fail',
       errors: ['Some error message'],
     });
 
-    const result = await getAverageBtcPlnPrice();
+    const result = await getAverageBtcPrice('pln');
 
     expect(result).toBeNull();
   });
 
   test('should handle errors', async () => {
-    (fetchBtcPlnRate as jest.Mock).mockRejectedValue(new Error('Mocked error'));
+    (fetchBtcRate as jest.Mock).mockRejectedValue(new Error('Mocked error'));
 
     try {
-      await getAverageBtcPlnPrice();
+      await getAverageBtcPrice('pln');
     } catch (error) {
       // @ts-ignore
       // eslint-disable-next-line

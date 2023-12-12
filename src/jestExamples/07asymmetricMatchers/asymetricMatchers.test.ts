@@ -1,5 +1,5 @@
 import random from '../../utils/random';
-import { fetchBtcPlnRate } from '../../api/fetchBtcPlnRate';
+import { fetchBtcRate } from '../../api/fetchBtcRate';
 
 // asymmetricMatchers can not be used with toBe
 describe('asymmetricMatchers', () => {
@@ -21,7 +21,7 @@ describe('asymmetricMatchers', () => {
   });
 
   test('objectContaining()', async () => {
-    const result = await fetchBtcPlnRate();
+    const result = await fetchBtcRate('pln');
     expect(result).toEqual(expect.objectContaining({ status: 'Ok' }));
   });
 

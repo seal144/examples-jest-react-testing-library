@@ -1,3 +1,5 @@
+import { AvailableCurrencies } from '../types/types';
+
 export interface zondaRes {
   status: 'Ok' | 'Fail';
   stats?: {
@@ -11,9 +13,9 @@ export interface zondaRes {
 }
 
 //fetching the btc-pln rate from the cryptocurrency exchange;
-export const fetchBtcPlnRate = async (): Promise<zondaRes | undefined> => {
+export const fetchBtcRate = async (currency: AvailableCurrencies): Promise<zondaRes | undefined> => {
   try {
-    const response = await fetch('https://api.zondacrypto.exchange/rest/trading/stats/btc-pln');
+    const response = await fetch(`https://api.zondacrypto.exchange/rest/trading/stats/btc-${currency}`);
     const data: zondaRes = await response.json();
     if (data.status === 'Fail') {
       if (data.errors) {

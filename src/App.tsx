@@ -1,24 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import { getAverageBtcPlnPrice } from './api/getAverageBtcPlnPrice';
 import Title from './components/Title';
+import ShowBtcPrice from './components/ShowBtcPrice';
 
 function App() {
-  const [btcPln, setBtcPln] = useState<number | null>(null);
-
-  useEffect(() => {
-    const getBtcPln = async () => {
-      const averageBtcPlnPrice = await getAverageBtcPlnPrice();
-      setBtcPln(averageBtcPlnPrice);
-    };
-    getBtcPln();
-  }, []);
-
   return (
     <div className="App">
       <header className="App-header">
         <Title text="EXAMPLE: Jest and Testing Library" />
-        {btcPln && <p>BTC-PLN: {btcPln}PLN</p>}
+        <ShowBtcPrice currency="usd" />
+        <ShowBtcPrice currency="eur" />
+        <ShowBtcPrice currency="pln" />
       </header>
     </div>
   );
