@@ -7,7 +7,7 @@ interface ShowBtcPriceProps {
 }
 
 const ShowBtcPrice = ({ currency }: ShowBtcPriceProps) => {
-  const [btcPrice, setBtcPrice] = useState<number | null>(null);
+  const [btcPrice, setBtcPrice] = useState<number | null | undefined>(undefined);
 
   useEffect(() => {
     const getBtcPrice = async () => {
@@ -19,6 +19,8 @@ const ShowBtcPrice = ({ currency }: ShowBtcPriceProps) => {
 
   return (
     <div>
+      {btcPrice === undefined && <p>Loading data...</p>}
+      {btcPrice === null && <p>Error: failed to fetch data</p>}
       {btcPrice && (
         <p>
           BTC-{currency.toUpperCase()}: {btcPrice} {currency.toUpperCase()}

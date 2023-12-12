@@ -14,8 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### [Mocking return value for sync func and resolved value for async function](/src/jestExamples/03MockReturnAndResolveValue)
 
-- "./src/jestExamples/03MockReturnAndResolveValue"
-- "./src/jestExamples/03MockReturnAndResolveValue"
+- "./src/jestExamples/03mockReturnAndResolveValue"
+- "./src/jestExamples/03mockReturnAndResolveValue"
 
 ### [Snapshot testing](/src/jestExamples/04snapShotTesting/Button.test.ts)
 
@@ -41,11 +41,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### [Basic render test](/src/testingLibraryExamples/01RenderBasics/renderBasics.test.tsx)
 
-- "./src/testingLibraryExamples/01RenderBasics"
+- "./src/testingLibraryExamples/01renderBasics"
 
 ### [Fire Events](/src/testingLibraryExamples/02FireEvents/fireEvents.test.tsx)
 
-- "./src/testingLibraryExamples/02FireEvents"
+- "./src/testingLibraryExamples/02fireEvents"
 
 ### [Snapshot testing](/src/testingLibraryExamples/03snapshotTesting/snapshotTest.test.tsx)
 
@@ -53,7 +53,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### [Form testing](/src/testingLibraryExamples/04FormTesting/formtesting.test.tsx)
 
-- './src/testingLibraryExamples/04FormTesting'
+- './src/testingLibraryExamples/04formTesting'
+
+### [Async behavior](/src/testingLibraryExamples/05asyncBehavior/testingAsyncBehavior.test.tsx)
+
+- './src/testingLibraryExamples/05asyncBehavior'
 
 ## Available Scripts
 
