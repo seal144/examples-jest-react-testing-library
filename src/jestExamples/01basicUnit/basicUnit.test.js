@@ -18,3 +18,13 @@ describe('starRating', () => {
     expect(starRating(1234.5678)).toBe('full full full full full');
   });
 });
+
+// the same tests with test.each syntax
+test.each([
+  [3.74, 'full full full half empty'],
+  [2.25, 'full full half empty empty'],
+  [-12.34, 'empty empty empty empty empty'],
+  [1234.5678, 'full full full full full'],
+])('starRating(%s) should return %s', (number, sterRating) => {
+  expect(starRating(number)).toBe(sterRating);
+});
