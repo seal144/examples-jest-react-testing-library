@@ -4,56 +4,56 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Examples of "jest" features and use cases
 
-### Basic unit test
+### [Basic unit test](/src/jestExamples/01basicUnit/basicUnit.test.ts)
 
-"./src/jestExamples/01basicUnit"
+- "./src/jestExamples/01basicUnit/basicUnit.test.ts"
 
-### Async testing Api
+### [Async testing Api](/src/jestExamples/02asyncTestingApi/asyncTestingApi.test.ts)
 
-"./src/jestExamples/02asyncTestingApi"
+- "./src/jestExamples/02asyncTestingApi"
 
-### Mocking return value for sync func and resolved value for async function
+### [Mocking return value for sync func and resolved value for async function](/src/jestExamples/03MockReturnAndResolveValue)
 
-"./src/jestExamples/03MockReturnAndResolveValue"
-"./src/jestExamples/03MockReturnAndResolveValue"
+- "./src/jestExamples/03MockReturnAndResolveValue"
+- "./src/jestExamples/03MockReturnAndResolveValue"
 
-### Snapshot testing
+### [Snapshot testing](/src/jestExamples/04snapShotTesting/Button.test.ts)
 
-"./src/jestExamples/04snapShotTesting"
+- "./src/jestExamples/04snapShotTesting"
 
-### Setup/cleanup before/after each/all test
+### [Setup/cleanup before/after each/all test](</src/jestExamples/05before(Each,All)Afler(Each,All)/SetupAndCleanup.test.ts>)
 
-"./src/jestExamples/05before(Each,All)Afler(Each,All)"
+- "./src/jestExamples/05before(Each,All)Afler(Each,All)"
 
-### Custom matchers
+### [Custom matchers](/src/jestExamples/06customMatchers/testWithCustomMatcher.test.ts)
 
-"./src/jestExamples/06customMatchers"
+- "./src/jestExamples/06customMatchers"
 
-### Asymmetric matchers
+### [Asymmetric matchers](/src/jestExamples/07asymmetricMatchers/asymetricMatchers.test.ts)
 
-"./src/jestExamples/07asymmetricMatchers"
+- "./src/jestExamples/07asymmetricMatchers"
 
-### Timer mocks - testing functions that involve timeouts or intervals
+### [Timer mocks - testing functions that involve timeouts or intervals](/src/jestExamples/08timerMocks/timerMocks.test.ts)
 
-"./src/jestExamples/08timerMocks"
+- "./src/jestExamples/08timerMocks"
 
 ## Examples of "react-testing-library" features and use cases
 
-### Basic render test
+### [Basic render test](/src/testingLibraryExamples/01RenderBasics/renderBasics.test.tsx)
 
-"./src/testingLibraryExamples/01RenderBasics"
+- "./src/testingLibraryExamples/01RenderBasics"
 
-### Fire Events
+### [Fire Events](/src/testingLibraryExamples/02FireEvents/fireEvents.test.tsx)
 
-"./src/testingLibraryExamples/02FireEvents"
+- "./src/testingLibraryExamples/02FireEvents"
 
-### Snapshot testing
+### [Snapshot testing](/src/testingLibraryExamples/03snapshotTesting/snapshotTest.test.tsx)
 
-'./src/testingLibraryExamples/03snapshotTesting'
+- './src/testingLibraryExamples/03snapshotTesting'
 
-### Form testing
+### [Form testing](/src/testingLibraryExamples/04FormTesting/formtesting.test.tsx)
 
-'./src/testingLibraryExamples/04FormTesting'
+- './src/testingLibraryExamples/04FormTesting'
 
 ## Available Scripts
 
