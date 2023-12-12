@@ -15,7 +15,7 @@ const ShowBtcPrice = ({ currency }: ShowBtcPriceProps) => {
       setBtcPrice(averageBtcPrice);
     };
     getBtcPrice();
-  }, []);
+  }, [currency]);
 
   return (
     <div>
